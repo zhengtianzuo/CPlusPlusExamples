@@ -6,3 +6,6 @@ C++相关的技术分享
 ![](https://img.shields.io/badge/%E7%89%88%E6%9D%83%E8%AE%B8%E5%8F%AF-MIT-orange.svg)
 
 CppLog4cpp: 调用Log4cpp开源库生成日志文件
+
+![](https://raw.githubusercontent.com/zhengtianzuo/CPlusPlusExamples/master/CppLog4cpp/show.png?raw=true)
+
