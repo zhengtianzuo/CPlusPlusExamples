@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <log4cpp/Category.hh>
 #include <log4cpp/Appender.hh>
 #include <log4cpp/FileAppender.hh>
@@ -13,10 +13,10 @@ int main(int argc, char* argv[])
 	log4cpp::PatternLayout* pLayout = new log4cpp::PatternLayout();
 	pLayout->setConversionPattern("%d: %p %c %x: %m%n");
 
-	log4cpp::Appender* fileAppender = new log4cpp::FileAppender("fileAppender","ÈÕÖ¾.log");
+	log4cpp::Appender* fileAppender = new log4cpp::FileAppender("fileAppender","æ—¥å¿—.log");
 	fileAppender->setLayout(pLayout);
 
-	log4cpp::Category& root = log4cpp::Category::getRoot().getInstance("ÈÕÖ¾ÀàÐÍ");
+	log4cpp::Category& root = log4cpp::Category::getRoot().getInstance("æ—¥å¿—ç±»åž‹");
 	root.addAppender(fileAppender);
 	root.setPriority(log4cpp::Priority::DEBUG);
 
@@ -24,7 +24,7 @@ int main(int argc, char* argv[])
 	{
 		string strError;
 		ostringstream oss;
-		oss<<i<<" ÕâÊÇÒ»ÌõErrorÐÅÏ¢...";
+		oss<<i<<" è¿™æ˜¯ä¸€æ¡Errorä¿¡æ¯...";
 		strError = oss.str();
 		root.error(strError);
 	}
@@ -33,7 +33,7 @@ int main(int argc, char* argv[])
 	{
 		string strError;
 		ostringstream oss;
-		oss<<i<<" ÕâÊÇÒ»ÌõInfoÐÅÏ¢...";
+		oss<<i<<" è¿™æ˜¯ä¸€æ¡Infoä¿¡æ¯...";
 		strError = oss.str();
 		root.info(strError);
 	}
@@ -42,7 +42,7 @@ int main(int argc, char* argv[])
 	{
 		string strError;
 		ostringstream oss;
-		oss<<i<<" ÕâÊÇÒ»ÌõDebugÐÅÏ¢...";
+		oss<<i<<" è¿™æ˜¯ä¸€æ¡Debugä¿¡æ¯...";
 		strError = oss.str();
 		root.debug(strError);
 	}
