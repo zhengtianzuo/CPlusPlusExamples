@@ -1,0 +1,36 @@
+﻿/*!
+ *@file CppIsLocalIP.cpp
+ *@brief 程序主文件
+ *@version 1.0
+ *@section LICENSE Copyright (C) 2003-2103 CamelSoft Corporation
+ *@author zhengtianzuo
+*/
+#include <string>
+#include <iostream>
+#include <sstream>
+
+using namespace std;
+
+bool IsLocalIP(const string& ipstring)
+{
+	istringstream st(ipstring);
+	int ip[2];
+	for (int i = 0; i < 2; i++)
+	{
+		string temp;
+		getline(st, temp, '.');
+		istringstream a(temp);
+		a >> ip[i];
+	}
+	if ((ip[0] == 10) || (ip[0] == 172 && ip[1] >= 16 && ip[1] <= 31) || (ip[0] == 192 && ip[1] == 168))
+		return true;
+	else return false;
+}
+
+int main(int argc, char* argv[])
+{
+	cout << IsLocalIP("10.0.0.1") << "\n";
+	cout << IsLocalIP("192.168.0.1") << "\n";
+	cout << IsLocalIP("171.217.52.62") << "\n";
+    return 0;
+}

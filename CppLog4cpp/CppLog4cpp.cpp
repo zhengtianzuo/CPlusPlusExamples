@@ -1,4 +1,11 @@
-﻿#include <iostream>
+﻿/*!
+ *@file CppLog4cpp.cpp
+ *@brief 程序主文件
+ *@version 1.0
+ *@section LICENSE Copyright (C) 2003-2103 CamelSoft Corporation
+ *@author zhengtianzuo
+*/
+#include <iostream>
 #include <log4cpp/Category.hh>
 #include <log4cpp/Appender.hh>
 #include <log4cpp/FileAppender.hh>
