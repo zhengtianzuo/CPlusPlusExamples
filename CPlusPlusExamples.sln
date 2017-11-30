@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppLog4cpp", "CppLog4cpp\Cp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppIsLocalIP", "CppIsLocalIP\CppIsLocalIP.vcxproj", "{B9413DEF-257D-4B9B-887B-10FF299BE39B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppGetWinVersion", "CppGetWinVersion\CppGetWinVersion.vcxproj", "{77F161DB-3D3D-463A-BC8E-8A05B3B295BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -29,6 +31,14 @@ Global
 		{B9413DEF-257D-4B9B-887B-10FF299BE39B}.Release|x64.Build.0 = Release|x64
 		{B9413DEF-257D-4B9B-887B-10FF299BE39B}.Release|x86.ActiveCfg = Release|Win32
 		{B9413DEF-257D-4B9B-887B-10FF299BE39B}.Release|x86.Build.0 = Release|Win32
+		{77F161DB-3D3D-463A-BC8E-8A05B3B295BF}.Debug|x64.ActiveCfg = Debug|x64
+		{77F161DB-3D3D-463A-BC8E-8A05B3B295BF}.Debug|x64.Build.0 = Debug|x64
+		{77F161DB-3D3D-463A-BC8E-8A05B3B295BF}.Debug|x86.ActiveCfg = Debug|Win32
+		{77F161DB-3D3D-463A-BC8E-8A05B3B295BF}.Debug|x86.Build.0 = Debug|Win32
+		{77F161DB-3D3D-463A-BC8E-8A05B3B295BF}.Release|x64.ActiveCfg = Release|x64
+		{77F161DB-3D3D-463A-BC8E-8A05B3B295BF}.Release|x64.Build.0 = Release|x64
+		{77F161DB-3D3D-463A-BC8E-8A05B3B295BF}.Release|x86.ActiveCfg = Release|Win32
+		{77F161DB-3D3D-463A-BC8E-8A05B3B295BF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
