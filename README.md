@@ -16,3 +16,11 @@ CppLog4cpp: 调用Log4cpp开源库生成日志文件
 
 ![](https://raw.githubusercontent.com/zhengtianzuo/CPlusPlusExamples/master/CppLog4cpp/show.png?raw=true)
 
+
+***
+###### **捐赠**
+![](https://github.com/zhengtianzuo/zhengtianzuo.github.io/blob/master/weixin.jpg?raw=true)
+![](https://github.com/zhengtianzuo/zhengtianzuo.github.io/blob/master/zhifubao.jpg?raw=true)
+
+###### 觉得非常的内容还不错, 就请作者喝杯咖啡吧~~
+***
