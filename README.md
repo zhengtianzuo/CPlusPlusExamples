@@ -26,13 +26,7 @@ CppLog4cpp: 调用Log4cpp开源库生成日志文件
 |github|https://github.com/zhengtianzuo
 |QQ群|199672080  ![](https://github.com/zhengtianzuo/zhengtianzuo.github.io/blob/master/qqgroup.jpg?raw=true)
 
-
-
-
-
-***
-#### **捐赠**
-<img src="https://github.com/zhengtianzuo/zhengtianzuo.github.io/blob/master/weixin.jpg?raw=true" width="30%" height="30%" />           <img src="https://github.com/zhengtianzuo/zhengtianzuo.github.io/blob/master/zhifubao.jpg?raw=true" width="30%" height="30%" />
+<img src="https://github.com/zhengtianzuo/zhengtianzuo.github.io/blob/master/me.jpg?raw=true"/>
 
 ###### 觉得分享的内容还不错, 就请作者喝杯咖啡吧~~
 ***
